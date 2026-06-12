@@ -1,0 +1,59 @@
+body {
+  font-family:Arial,sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.conatiner{
+  width: 500px;
+  background: white;
+  padding:20px;
+  border-radius:10px;
+}
+
+form{
+  display:flex;
+  gap:10px;
+}
+
+input{
+  flex:1;
+  padding:10px;
+}
+
+button{
+  cursor:pointer;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+}
+
+li{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px0;
+  border-bottom: 1px solid #ddd;
+}
+
+.completed span{
+  text-decoration:line-through;
+  opacity:0.6;
+}
+
+.actions nutton{
+  margin-left:5px;
+}
+
+.filters{
+  margin:15px 0;
+}
+
+.filters .active{
+  background: #333;
+  color:white;
+}
